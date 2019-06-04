@@ -1,6 +1,9 @@
 public class Conglict{
 	public static void main(String[] args){
-		System.out.println("HelloWorld");
+		for(int i =0 ; i < 10 ;i++){
+			int a = java.util.Random().nextInt(100)+1;
+				System.out.println(a);
+		}
 	}
 }
 
